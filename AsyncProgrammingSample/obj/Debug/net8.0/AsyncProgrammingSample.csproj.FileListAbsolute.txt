@@ -1,0 +1,15 @@
+D:\Github\Personal\.Net-Samples\AsyncProgrammingSample\bin\Debug\net8.0\AsyncProgrammingSample.exe
+D:\Github\Personal\.Net-Samples\AsyncProgrammingSample\bin\Debug\net8.0\AsyncProgrammingSample.deps.json
+D:\Github\Personal\.Net-Samples\AsyncProgrammingSample\bin\Debug\net8.0\AsyncProgrammingSample.runtimeconfig.json
+D:\Github\Personal\.Net-Samples\AsyncProgrammingSample\bin\Debug\net8.0\AsyncProgrammingSample.dll
+D:\Github\Personal\.Net-Samples\AsyncProgrammingSample\bin\Debug\net8.0\AsyncProgrammingSample.pdb
+D:\Github\Personal\.Net-Samples\AsyncProgrammingSample\obj\Debug\net8.0\AsyncProgrammingSample.GeneratedMSBuildEditorConfig.editorconfig
+D:\Github\Personal\.Net-Samples\AsyncProgrammingSample\obj\Debug\net8.0\AsyncProgrammingSample.AssemblyInfoInputs.cache
+D:\Github\Personal\.Net-Samples\AsyncProgrammingSample\obj\Debug\net8.0\AsyncProgrammingSample.AssemblyInfo.cs
+D:\Github\Personal\.Net-Samples\AsyncProgrammingSample\obj\Debug\net8.0\AsyncProgrammingSample.csproj.CoreCompileInputs.cache
+D:\Github\Personal\.Net-Samples\AsyncProgrammingSample\obj\Debug\net8.0\AsyncProgrammingSample.sourcelink.json
+D:\Github\Personal\.Net-Samples\AsyncProgrammingSample\obj\Debug\net8.0\AsyncProgrammingSample.dll
+D:\Github\Personal\.Net-Samples\AsyncProgrammingSample\obj\Debug\net8.0\refint\AsyncProgrammingSample.dll
+D:\Github\Personal\.Net-Samples\AsyncProgrammingSample\obj\Debug\net8.0\AsyncProgrammingSample.pdb
+D:\Github\Personal\.Net-Samples\AsyncProgrammingSample\obj\Debug\net8.0\AsyncProgrammingSample.genruntimeconfig.cache
+D:\Github\Personal\.Net-Samples\AsyncProgrammingSample\obj\Debug\net8.0\ref\AsyncProgrammingSample.dll
