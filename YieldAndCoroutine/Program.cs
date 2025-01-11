@@ -4,6 +4,7 @@ internal abstract class Program
 {
     private static void Main()
     {
-        ProcessPaymentSample.ProcessPayment();
+        // ProcessPaymentSample.ProcessPayment();
+        YieldOrderSample.Output();
     }
 }

@@ -1,6 +1,6 @@
 ﻿namespace YieldAndCoroutine;
 
-public class ProcessPaymentSample
+public static class ProcessPaymentSample
 {
     public static void ProcessPayment()
     {
