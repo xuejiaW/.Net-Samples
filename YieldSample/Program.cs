@@ -1,4 +1,4 @@
-﻿using YieldAndCoroutine;
+﻿using YieldSample;
 
 internal abstract class Program
 {

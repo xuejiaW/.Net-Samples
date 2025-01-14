@@ -1,4 +1,4 @@
-﻿namespace YieldAndCoroutine;
+﻿namespace YieldSample;
 
 public static class ProcessPaymentSample
 {
