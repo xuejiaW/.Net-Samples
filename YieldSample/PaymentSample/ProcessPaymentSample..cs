@@ -29,7 +29,20 @@ public static class ProcessPaymentSample
                 break;
         }
     }
-
+    
+    public static void ProcessPaymentUsingWhileBasedOnIEnumerator()
+    {
+        IEnumerator<Payment> payment = GetPaymentsEnumerator(10000);
+        while (payment.MoveNext())
+        {
+            Payment p = payment.Current;
+            if (p.id < 10)
+                Console.WriteLine($"Payment ID: {p.id}, Name: {p.name}");
+            else
+                break;
+        }
+    }
+    
     private static IEnumerable<Payment> GetPayments(int count)
     {
         var payments = new List<Payment>();
@@ -46,6 +59,17 @@ public static class ProcessPaymentSample
     }
 
     private static IEnumerable<Payment> GetPaymentsWithYield(int count)
+    {
+        for (int i = 0; i != count; i++)
+        {
+            var p = new Payment();
+            p.id = i;
+            p.name = "Payment " + i;
+            yield return p;
+        }
+    }
+    
+    private static IEnumerator<Payment> GetPaymentsEnumerator(int count)
     {
         for (int i = 0; i != count; i++)
         {
