@@ -7,6 +7,7 @@ public class MySimpleBehaviour : Behaviour
     public override void Start()
     {
         base.Start();
+        
         StartCoroutine(Foo());
         StartCoroutine(Bar());
     }
@@ -32,7 +33,7 @@ public class MySimpleBehaviour : Behaviour
 
     private IEnumerator Bar()
     {
-        yield return new WaitForSeconds(1);
+        yield return new WaitForSeconds(2);
         Console.WriteLine("Bar Finished!");
     }
 }

@@ -1,6 +1,4 @@
-﻿using System.Collections;
-
-namespace CustomCoroutine;
+﻿namespace CustomCoroutine;
 
 using System.Collections;
 
