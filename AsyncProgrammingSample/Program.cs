@@ -2,13 +2,9 @@
 {
     // These classes are intentionally empty for the purpose of this example. They are simply marker classes for the purpose of demonstration, contain no properties, and serve no other purpose.
     internal class Bacon { }
-
     internal class Coffee { }
-
     internal class Egg { }
-
     internal class Juice { }
-
     internal class Toast { }
 
     internal static class Program
@@ -29,12 +25,12 @@
             ApplyJam(toast);
             Console.WriteLine("toast is ready");
 
-            Juice oj = PourOj();
-            Console.WriteLine("oj is ready");
+            Juice juice = PourJuice();
+            Console.WriteLine("juice is ready");
             Console.WriteLine("Breakfast is ready!");
         }
 
-        private static Juice PourOj()
+        private static Juice PourJuice()
         {
             Console.WriteLine("Pouring orange juice");
             return new Juice();
