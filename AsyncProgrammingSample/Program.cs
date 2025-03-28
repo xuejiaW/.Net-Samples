@@ -22,17 +22,30 @@
             Task<Bacon> baconTask = FryBaconAsync(3);
             Task<Toast> toastTask = MakeToastWithButterAndJamAsync(2);
 
-            Egg eggs = await eggsTask;
-            Console.WriteLine("eggs are ready");
-            Bacon bacon = await baconTask;
-            Console.WriteLine("bacon is ready");
+            var breakfastTasks = new List<Task> {eggsTask, baconTask, toastTask};
+            while (breakfastTasks.Count > 0)
+            {
+                Task finishedTask = await Task.WhenAny(breakfastTasks);
+                if (finishedTask == eggsTask)
+                {
+                    Console.WriteLine("eggs are ready");
+                }
+                else if (finishedTask == baconTask)
+                {
+                    Console.WriteLine("bacon is ready");
+                }
+                else if (finishedTask == toastTask)
+                {
+                    Console.WriteLine("toast is ready");
+                }
 
-            Toast toast = await toastTask;
-            Console.WriteLine("toast is ready");
-            
+                await finishedTask;
+
+                breakfastTasks.Remove(finishedTask);
+            }
+
             Juice juice = PourJuice();
             Console.WriteLine("juice is ready");
-
             Console.WriteLine("Breakfast is ready!");
         }
 
